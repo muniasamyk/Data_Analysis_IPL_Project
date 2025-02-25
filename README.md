@@ -37,6 +37,10 @@ This repository contains an **IPL Analysis Dashboard** built using **Power BI**,
 9. What was the effect of **toss decisions** on match outcomes?
 10. How did teams win their matches (by wickets, runs, or Super Over)?
 
+### Data Modeling
+11) Relationship between all tables
+![Table_Model_View](https://github.com/muniasamyk/Data-Analysis-Dashboard-IPL-/blob/main/Model_View)
+
 ## Screenshot
 
 ![IPL Analysis Dashboard](https://github.com/muniasamyk/Data-Analysis-Dashboard-IPL-/blob/main/Screenshot%202025-02-25%20152939.png)
