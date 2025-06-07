@@ -78,7 +78,7 @@ This repository provides robust analytics and machine learning-based prediction 
 - **Fully Extensible:** Designed to be easily integrated into dashboards or web apps (e.g., Streamlit, Flask).
 - **Scikit-learn Powered:** Uses Random Forest and other scikit-learn models for classification and regression.
 
-## Project 
+## Prediction File
 
 https://github.com/muniasamyk/Data_Analysis_IPL_Project/blob/main/IPL_Data_Prediction.ipynb
 
