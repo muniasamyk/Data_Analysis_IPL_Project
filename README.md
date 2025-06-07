@@ -80,31 +80,14 @@ This repository provides robust analytics and machine learning-based prediction 
 
 ## Project 
 
-
-
+https://github.com/muniasamyk/Data_Analysis_IPL_Project/blob/main/IPL_Data_Prediction.ipynb
 
 ## Getting Started
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/ipl-analytics-prediction.git
-   cd ipl-analytics-prediction
-   ```
-
-2. **Prepare Data Files**  
+1. **Prepare Data Files**  
    - Place your `ipl_matches.csv` and `ipl_players.csv` files in the root directory.
    - Ensure `ipl_matches.csv` has columns like `id`, `season`, `team1`, `team2`, `winning_team`, etc.
    - Ensure `ipl_players.csv` has columns like `id` (match id), `batter`, `bowler`, `batsman_run`, `iswicket_delivery`, `player_out`, etc.
-
-3. **Install Requirements**  
-   ```bash
-   pip install pandas scikit-learn
-   ```
-
-4. **Run the Main Script**  
-   ```bash
-   python ipl_awards_predictions.py
-   ```
 
 ## Example Outputs
 
