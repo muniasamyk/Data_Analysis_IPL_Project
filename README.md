@@ -63,6 +63,75 @@ This repository contains an **IPL Analysis Dashboard** built using **Power BI**,
 - **Player comparison charts** for deeper analysis.
 - **Predictive analytics** to forecast match results.
 
+  # IPL Analytics & Prediction 
+
+This repository provides robust analytics and machine learning-based prediction tools for IPL (Indian Premier League) cricket matches. It includes code and data for:
+- Season-wise Orange Cap (most runs) and Purple Cap (most wickets) predictions
+- Match and cup winner predictions using historical data and machine learning models
+- Comprehensive data handling for match-level and ball-by-ball datasets
+
+## Features
+
+- **Data Integration:** Seamlessly merges match-level and ball-by-ball data for deep analysis.
+- **Award Predictions:** Calculates likely Orange Cap and Purple Cap winners for any season.
+- **Match/Cup Winner Predictions:** Predicts outcomes for upcoming matches and identifies the team most likely to win the IPL cup.
+- **Fully Extensible:** Designed to be easily integrated into dashboards or web apps (e.g., Streamlit, Flask).
+- **Scikit-learn Powered:** Uses Random Forest and other scikit-learn models for classification and regression.
+
+## Project 
+
+
+
+
+## Getting Started
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/ipl-analytics-prediction.git
+   cd ipl-analytics-prediction
+   ```
+
+2. **Prepare Data Files**  
+   - Place your `ipl_matches.csv` and `ipl_players.csv` files in the root directory.
+   - Ensure `ipl_matches.csv` has columns like `id`, `season`, `team1`, `team2`, `winning_team`, etc.
+   - Ensure `ipl_players.csv` has columns like `id` (match id), `batter`, `bowler`, `batsman_run`, `iswicket_delivery`, `player_out`, etc.
+
+3. **Install Requirements**  
+   ```bash
+   pip install pandas scikit-learn
+   ```
+
+4. **Run the Main Script**  
+   ```bash
+   python ipl_awards_predictions.py
+   ```
+
+## Example Outputs
+
+- Likely Orange Cap (most runs, latest season): _Player Name_ (_Runs_)
+- Likely Purple Cap (most wickets, latest season): _Player Name_ (_Wickets_)
+- Predicted winner for MI vs CSK: _Team Name_
+- Likely IPL Cup Winner: _Team Name_ (Total Projected Wins: _N_)
+
+## Customization
+
+- Add more features to the ML model by engineering new columns (e.g., player form, head-to-head stats).
+- Integrate with web dashboards using Streamlit or Flask.
+- Update `upcoming_match_details` in the script to predict new matches.
+
+## Contributing
+
+Contributions are welcome! Please open issues or pull requests for improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+> **Disclaimer:** This tool is for educational and analytical purposes. Predictions are based on historical data and machine learning models; actual match results may differ.
+
+
 
 
 👨‍💻 Developed by **Muniasamy K**
