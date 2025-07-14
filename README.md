@@ -63,9 +63,8 @@ This repository contains an **IPL Analysis Dashboard** built using **Power BI**,
 - **Player comparison charts** for deeper analysis.
 - **Predictive analytics** to forecast match results.
 
-  # IPL Analytics & Prediction 
-
-This repository provides robust analytics and machine learning-based prediction tools for IPL (Indian Premier League) cricket matches. It includes code and data for:
+  # IPL Analytics & Prediction
+  
 - Season-wise Orange Cap (most runs) and Purple Cap (most wickets) predictions
 - Match and cup winner predictions using historical data and machine learning models
 - Comprehensive data handling for match-level and ball-by-ball datasets
