@@ -22,7 +22,7 @@ Batting Insights – View total runs, boundaries, and strike rates for any batsm
 
 Bowling Insights – Check wickets, economy, average, and strike rate for bowlers.
 
-## Match Analysis
+### Match Analysis
 
 Wins by Venue
 
@@ -63,7 +63,7 @@ All tables are connected through well-defined relationships for efficient queryi
 
 ### Dashboard Preview
 
-🛠 Tools & Technologies
+Tools & Technologies
 
 Power BI – Interactive data visualization
 
@@ -94,16 +94,6 @@ Estimates match winners for specific fixtures.
 Uses Random Forest and other models from scikit-learn.
 
 Can be easily integrated into Streamlit or Flask web apps.
-
-#### Example Outputs
-
-Likely Orange Cap Winner → Player Name (Runs: XXX)
-
-Likely Purple Cap Winner → Player Name (Wickets: XX)
-
-Predicted winner for MI vs CSK → Team Name
-
-Predicted IPL Cup Winner → Team Name
 
 #### Future Enhancements
 
