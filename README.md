@@ -108,10 +108,6 @@ Match result forecasting based on team form and conditions
 Contributions and suggestions are always welcome!
 If you spot a bug or want to improve the dashboard or prediction logic, feel free to open an issue or pull request.
 
-### License
-
-This project is released under the MIT License — free for learning and sharing.
-
 #### Developed by Muniasamy K
 
 Data Enthusiast | Power BI Developer | Machine Learning Explorer
