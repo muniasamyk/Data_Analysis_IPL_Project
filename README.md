@@ -81,20 +81,6 @@ Explore different pages and filters — choose a season, team, player, or venue.
 
 Gain instant insights through interactive visuals.
 
-## Predictive Analytics (Machine Learning)
-
-This project also includes an IPL Prediction Model that forecasts Orange Cap, Purple Cap, and match winners using historical data.
-
-## Prediction Capabilities
-
-Predicts top run-scorer (Orange Cap) and top wicket-taker (Purple Cap).
-
-Estimates match winners for specific fixtures.
-
-Uses Random Forest and other models from scikit-learn.
-
-Can be easily integrated into Streamlit or Flask web apps.
-
 #### Future Enhancements
 
 Real-time data updates for live IPL seasons
